@@ -1,0 +1,10 @@
+[server]
+bind_addr = ":4567"
+
+[store]
+database_url = "host=localhost port=5432 user=postgres password=qwerty dbname=bot_detector sslmode=disable"
+migration_path="file://migrations"
+
+[auth]
+signing_key = "hKUoFfNd-vVTi58Gf-hIJlDJT0"
+expire_duration = 72
